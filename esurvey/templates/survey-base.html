@@ -1,0 +1,123 @@
+{% load static%}
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  {% if form.media %}
+  {{ form.media }}
+  {% endif %}
+  <title> TrustedUX - eSurvey</title>
+  <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+  <!-- Bootstrap core CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="{% static 'popper.min.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.min.js' %}"></script>
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+<link rel="stylesheet" href="{% static 'assets/css/templatemo-softy-pinko.css' %}">
+  <link href="{% static 'bs-step.css' %}" rel="stylesheet">
+
+  <style>
+  .custom-radio-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+  }
+    .form-inline {
+        display: inline-block;
+    }
+    .navbar {
+    		color: #fff;
+    		background: #0280FF;
+    		padding: 5px 16px;
+    		border-radius: 0;
+    		border: none;
+    		box-shadow: 0 0 4px rgba(0,0,0,.1);
+    	}
+
+    	.navbar .divider {
+    		background-color: #0280FF !important;
+    	}
+</style>
+</head>
+
+<body class="bg-light">
+
+  <nav class="navbar navbar-expand-xl navbar-dark">
+    <div class='container'>
+
+  		<a class="navbar-brand" href="{% url 'home'%}">Trusted<b>UX</b> - eSurvey Platform</a>
+
+
+  	<!-- Collection of nav links, forms, and other content for toggling -->
+
+  </div>
+  </nav>
+
+
+
+
+  <!-- Page Content -->
+  <div class="container min-vh-100">
+      <br/>
+
+    <h2> {% block title%} {%endblock%} </h2>
+
+    {% if messages %}
+    {% for message in messages %}
+    {% if message.tags == 'error'%}
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      {{ message }}
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    {% else %}
+    <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+      {{ message }}
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    {%endif%}
+{% endfor %}
+{% endif %}
+
+    {% block content%}
+
+    {% endblock %}
+    <br/>
+  </div>
+</div>
+  </div>
+
+
+
+  <footer>
+      <div class="container">
+
+          <div class="d-flex">
+              <div class="p-3">
+                  <p class="copyright">Copyright &copy; 2020 TrustedUX</p>
+              </div>
+
+              <div class="ml-auto p-2">
+                  <img style="width:110px;height:37px;" src='{% static "assets/images/logo.png" %}'
+              </div>
+          </div>
+
+      </div>
+  </footer>
+
+
+  	<!-- ./Footer -->
+</body>
+
+</html>
