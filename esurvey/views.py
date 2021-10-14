@@ -12019,7 +12019,7 @@ def reportView(request,project_id):
             OvrallTrustS5s=float("{0:.1f}".format(OvrallTrustS5s))
         else:
             OvrallTrustS5s=0
-#computing overall risk for each survey
+#computing overall risk for each surveyhhhhh
         OvrallRiskS1= Submission.objects.aggregate(
             overaltrust=
                 Sum("q1", filter=(Q(link_id=LID1[0])), output_field=FloatField())+
