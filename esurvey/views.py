@@ -197,7 +197,7 @@ def getdata(request, project_id):
         OvrallTrustS1s= OvrallTrustS1s[0]
 
         if OvrallTrustS1s!=0:
-            OvrallTrustS1s= (OvrallTrustS1s*100) / (70*survey1Counts)
+            OvrallTrustS1s= (OvrallTrustS1s*100) / (45*survey1Counts)
             OvrallTrustS1s=float("{0:.1f}".format(OvrallTrustS1s))
         else:
             OvrallTrustS1s=0
@@ -836,14 +836,14 @@ def getdata(request, project_id):
                 OvrallTrustS2s.append(entry)
         OvrallTrustS1s= OvrallTrustS1s[0]
         if OvrallTrustS1s!=0:
-            OvrallTrustS1s= (OvrallTrustS1s*100) / (70*survey1Counts)
+            OvrallTrustS1s= (OvrallTrustS1s*100) / (45*survey1Counts)
             OvrallTrustS1s=float("{0:.1f}".format(OvrallTrustS1s))
         else:
             OvrallTrustS1s=0
 
         OvrallTrustS2s= OvrallTrustS2s[0]
         if OvrallTrustS2s !=0:
-            OvrallTrustS2s= (OvrallTrustS2s*100) / (70*survey2Counts)
+            OvrallTrustS2s= (OvrallTrustS2s*100) / (45*survey2Counts)
             OvrallTrustS2s=float("{0:.1f}".format(OvrallTrustS2s))
         else:
             OvrallTrustS2s=0
@@ -1809,7 +1809,7 @@ def getdata(request, project_id):
 
         OvrallTrustS1s= OvrallTrustS1s[0]
         if OvrallTrustS1s!=0:
-            OvrallTrustS1s= (OvrallTrustS1s*100) / (70*survey1Counts)
+            OvrallTrustS1s= (OvrallTrustS1s*100) / (45*survey1Counts)
             OvrallTrustS1s=float("{0:.1f}".format(OvrallTrustS1s))
         else:
             OvrallTrustS1s=0
@@ -1817,7 +1817,7 @@ def getdata(request, project_id):
 
         OvrallTrustS2s= OvrallTrustS2s[0]
         if OvrallTrustS2s!=0:
-            OvrallTrustS2s= (OvrallTrustS2s*100) / (70*survey2Counts)
+            OvrallTrustS2s= (OvrallTrustS2s*100) / (45*survey2Counts)
             OvrallTrustS2s=float("{0:.1f}".format(OvrallTrustS2s))
         else:
             OvrallTrustS2s=0
@@ -1825,7 +1825,7 @@ def getdata(request, project_id):
 
         OvrallTrustS3s= OvrallTrustS3s[0]
         if OvrallTrustS3s!=0:
-            OvrallTrustS3s= (OvrallTrustS3s*100) / (70*survey3Counts)
+            OvrallTrustS3s= (OvrallTrustS3s*100) / (45*survey3Counts)
             OvrallTrustS3s=float("{0:.1f}".format(OvrallTrustS3s))
         else:
             OvrallTrustS3s=0
@@ -3212,7 +3212,7 @@ def getdata(request, project_id):
 
         OvrallTrustS1s= OvrallTrustS1s[0]
         if OvrallTrustS1s!=0:
-            OvrallTrustS1s= (OvrallTrustS1s*100) / (70*survey1Counts)
+            OvrallTrustS1s= (OvrallTrustS1s*100) / (45*survey1Counts)
             OvrallTrustS1s=float("{0:.1f}".format(OvrallTrustS1s))
         else:
             OvrallTrustS1s=0
@@ -3220,7 +3220,7 @@ def getdata(request, project_id):
 
         OvrallTrustS2s= OvrallTrustS2s[0]
         if OvrallTrustS2s!=0:
-            OvrallTrustS2s= (OvrallTrustS2s*100) / (70*survey2Counts)
+            OvrallTrustS2s= (OvrallTrustS2s*100) / (45*survey2Counts)
             OvrallTrustS2s=float("{0:.1f}".format(OvrallTrustS2s))
         else:
             OvrallTrustS2s=0
@@ -3228,7 +3228,7 @@ def getdata(request, project_id):
 
         OvrallTrustS3s= OvrallTrustS3s[0]
         if OvrallTrustS3s!=0:
-            OvrallTrustS3s= (OvrallTrustS3s*100) / (70*survey3Counts)
+            OvrallTrustS3s= (OvrallTrustS3s*100) / (45*survey3Counts)
             OvrallTrustS3s=float("{0:.1f}".format(OvrallTrustS3s))
         else:
             OvrallTrustS3s=0
@@ -3236,7 +3236,7 @@ def getdata(request, project_id):
 
         OvrallTrustS4s= OvrallTrustS4s[0]
         if OvrallTrustS4s!=0:
-            OvrallTrustS4s= (OvrallTrustS4s*100) / (70*survey4Counts)
+            OvrallTrustS4s= (OvrallTrustS4s*100) / (45*survey4Counts)
             OvrallTrustS4s=float("{0:.1f}".format(OvrallTrustS4s))
         else:
             OvrallTrustS4s=0
@@ -5052,7 +5052,7 @@ def getdata(request, project_id):
 
         OvrallTrustS1s= OvrallTrustS1s[0]
         if OvrallTrustS1s!=0:
-            OvrallTrustS1s= (OvrallTrustS1s*100) / (70*survey1Counts)
+            OvrallTrustS1s= (OvrallTrustS1s*100) / (45*survey1Counts)
             OvrallTrustS1s=float("{0:.1f}".format(OvrallTrustS1s))
         else:
             OvrallTrustS1s=0
@@ -5060,7 +5060,7 @@ def getdata(request, project_id):
 
         OvrallTrustS2s= OvrallTrustS2s[0]
         if OvrallTrustS2s!=0:
-            OvrallTrustS2s= (OvrallTrustS2s*100) / (70*survey2Counts)
+            OvrallTrustS2s= (OvrallTrustS2s*100) / (45*survey2Counts)
             OvrallTrustS2s=float("{0:.1f}".format(OvrallTrustS2s))
         else:
             OvrallTrustS2s=0
@@ -5068,7 +5068,7 @@ def getdata(request, project_id):
 
         OvrallTrustS3s= OvrallTrustS3s[0]
         if OvrallTrustS3s!=0:
-            OvrallTrustS3s= (OvrallTrustS3s*100) / (70*survey3Counts)
+            OvrallTrustS3s= (OvrallTrustS3s*100) / (45*survey3Counts)
             OvrallTrustS3s=float("{0:.1f}".format(OvrallTrustS3s))
         else:
             OvrallTrustS3s=0
@@ -5076,14 +5076,14 @@ def getdata(request, project_id):
 
         OvrallTrustS4s= OvrallTrustS4s[0]
         if OvrallTrustS4s!=0:
-            OvrallTrustS4s= (OvrallTrustS4s*100) / (70*survey4Counts)
+            OvrallTrustS4s= (OvrallTrustS4s*100) / (45*survey4Counts)
             OvrallTrustS4s=float("{0:.1f}".format(OvrallTrustS4s))
         else:
             OvrallTrustS4s=0
 
         OvrallTrustS5s= OvrallTrustS5s[0]
         if OvrallTrustS5s!=0:
-            OvrallTrustS5s= (OvrallTrustS5s*100) / (70*survey5Counts)
+            OvrallTrustS5s= (OvrallTrustS5s*100) / (45*survey5Counts)
             OvrallTrustS5s=float("{0:.1f}".format(OvrallTrustS5s))
         else:
             OvrallTrustS5s=0
@@ -7200,7 +7200,7 @@ def reportView(request,project_id):
         OvrallTrustS1s= OvrallTrustS1s[0]
 
         if OvrallTrustS1s!=0:
-            OvrallTrustS1s= (OvrallTrustS1s*100) / (70*survey1Counts)
+            OvrallTrustS1s= (OvrallTrustS1s*100) / (45*survey1Counts)
             OvrallTrustS1s=float("{0:.1f}".format(OvrallTrustS1s))
         else:
             OvrallTrustS1s=0
@@ -7820,14 +7820,14 @@ def reportView(request,project_id):
                 OvrallTrustS2s.append(entry)
         OvrallTrustS1s= OvrallTrustS1s[0]
         if OvrallTrustS1s!=0:
-            OvrallTrustS1s= (OvrallTrustS1s*100) / (70*survey1Counts)
+            OvrallTrustS1s= (OvrallTrustS1s*100) / (45*survey1Counts)
             OvrallTrustS1s=float("{0:.1f}".format(OvrallTrustS1s))
         else:
             OvrallTrustS1s=0
 
         OvrallTrustS2s= OvrallTrustS2s[0]
         if OvrallTrustS2s !=0:
-            OvrallTrustS2s= (OvrallTrustS2s*100) / (70*survey2Counts)
+            OvrallTrustS2s= (OvrallTrustS2s*100) / (45*survey2Counts)
             OvrallTrustS2s=float("{0:.1f}".format(OvrallTrustS2s))
         else:
             OvrallTrustS2s=0
@@ -8777,7 +8777,7 @@ def reportView(request,project_id):
 
         OvrallTrustS1s= OvrallTrustS1s[0]
         if OvrallTrustS1s!=0:
-            OvrallTrustS1s= (OvrallTrustS1s*100) / (70*survey1Counts)
+            OvrallTrustS1s= (OvrallTrustS1s*100) / (45*survey1Counts)
             OvrallTrustS1s=float("{0:.1f}".format(OvrallTrustS1s))
         else:
             OvrallTrustS1s=0
@@ -8785,7 +8785,7 @@ def reportView(request,project_id):
 
         OvrallTrustS2s= OvrallTrustS2s[0]
         if OvrallTrustS2s!=0:
-            OvrallTrustS2s= (OvrallTrustS2s*100) / (70*survey2Counts)
+            OvrallTrustS2s= (OvrallTrustS2s*100) / (45*survey2Counts)
             OvrallTrustS2s=float("{0:.1f}".format(OvrallTrustS2s))
         else:
             OvrallTrustS2s=0
@@ -8793,7 +8793,7 @@ def reportView(request,project_id):
 
         OvrallTrustS3s= OvrallTrustS3s[0]
         if OvrallTrustS3s!=0:
-            OvrallTrustS3s= (OvrallTrustS3s*100) / (70*survey3Counts)
+            OvrallTrustS3s= (OvrallTrustS3s*100) / (45*survey3Counts)
             OvrallTrustS3s=float("{0:.1f}".format(OvrallTrustS3s))
         else:
             OvrallTrustS3s=0
@@ -10162,7 +10162,7 @@ def reportView(request,project_id):
 
         OvrallTrustS1s= OvrallTrustS1s[0]
         if OvrallTrustS1s!=0:
-            OvrallTrustS1s= (OvrallTrustS1s*100) / (70*survey1Counts)
+            OvrallTrustS1s= (OvrallTrustS1s*100) / (45*survey1Counts)
             OvrallTrustS1s=float("{0:.1f}".format(OvrallTrustS1s))
         else:
             OvrallTrustS1s=0
@@ -10170,7 +10170,7 @@ def reportView(request,project_id):
 
         OvrallTrustS2s= OvrallTrustS2s[0]
         if OvrallTrustS2s!=0:
-            OvrallTrustS2s= (OvrallTrustS2s*100) / (70*survey2Counts)
+            OvrallTrustS2s= (OvrallTrustS2s*100) / (45*survey2Counts)
             OvrallTrustS2s=float("{0:.1f}".format(OvrallTrustS2s))
         else:
             OvrallTrustS2s=0
@@ -10178,7 +10178,7 @@ def reportView(request,project_id):
 
         OvrallTrustS3s= OvrallTrustS3s[0]
         if OvrallTrustS3s!=0:
-            OvrallTrustS3s= (OvrallTrustS3s*100) / (70*survey3Counts)
+            OvrallTrustS3s= (OvrallTrustS3s*100) / (45*survey3Counts)
             OvrallTrustS3s=float("{0:.1f}".format(OvrallTrustS3s))
         else:
             OvrallTrustS3s=0
@@ -10186,7 +10186,7 @@ def reportView(request,project_id):
 
         OvrallTrustS4s= OvrallTrustS4s[0]
         if OvrallTrustS4s!=0:
-            OvrallTrustS4s= (OvrallTrustS4s*100) / (70*survey4Counts)
+            OvrallTrustS4s= (OvrallTrustS4s*100) / (45*survey4Counts)
             OvrallTrustS4s=float("{0:.1f}".format(OvrallTrustS4s))
         else:
             OvrallTrustS4s=0
@@ -11984,7 +11984,7 @@ def reportView(request,project_id):
 
         OvrallTrustS1s= OvrallTrustS1s[0]
         if OvrallTrustS1s!=0:
-            OvrallTrustS1s= (OvrallTrustS1s*100) / (70*survey1Counts)
+            OvrallTrustS1s= (OvrallTrustS1s*100) / (45*survey1Counts)
             OvrallTrustS1s=float("{0:.1f}".format(OvrallTrustS1s))
         else:
             OvrallTrustS1s=0
@@ -11992,7 +11992,7 @@ def reportView(request,project_id):
 
         OvrallTrustS2s= OvrallTrustS2s[0]
         if OvrallTrustS2s!=0:
-            OvrallTrustS2s= (OvrallTrustS2s*100) / (70*survey2Counts)
+            OvrallTrustS2s= (OvrallTrustS2s*100) / (45*survey2Counts)
             OvrallTrustS2s=float("{0:.1f}".format(OvrallTrustS2s))
         else:
             OvrallTrustS2s=0
@@ -12000,7 +12000,7 @@ def reportView(request,project_id):
 
         OvrallTrustS3s= OvrallTrustS3s[0]
         if OvrallTrustS3s!=0:
-            OvrallTrustS3s= (OvrallTrustS3s*100) / (70*survey3Counts)
+            OvrallTrustS3s= (OvrallTrustS3s*100) / (45*survey3Counts)
             OvrallTrustS3s=float("{0:.1f}".format(OvrallTrustS3s))
         else:
             OvrallTrustS3s=0
@@ -12008,14 +12008,14 @@ def reportView(request,project_id):
 
         OvrallTrustS4s= OvrallTrustS4s[0]
         if OvrallTrustS4s!=0:
-            OvrallTrustS4s= (OvrallTrustS4s*100) / (70*survey4Counts)
+            OvrallTrustS4s= (OvrallTrustS4s*100) / (45*survey4Counts)
             OvrallTrustS4s=float("{0:.1f}".format(OvrallTrustS4s))
         else:
             OvrallTrustS4s=0
 
         OvrallTrustS5s= OvrallTrustS5s[0]
         if OvrallTrustS5s!=0:
-            OvrallTrustS5s= (OvrallTrustS5s*100) / (70*survey5Counts)
+            OvrallTrustS5s= (OvrallTrustS5s*100) / (45*survey5Counts)
             OvrallTrustS5s=float("{0:.1f}".format(OvrallTrustS5s))
         else:
             OvrallTrustS5s=0
